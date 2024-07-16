@@ -1,0 +1,306 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+body {
+	font-family: "Bruno Ace SC", sans-serif;
+	line-height: 1.5;
+}
+a {
+	text-decoration: none;
+}
+h2 {
+	font-size: 64px;
+}
+.container {
+	width: 1296px;
+	margin: 0 auto;
+}
+.nav {
+	background: #000;
+}
+.nav ul {
+	display: flex;
+	justify-content: space-between;
+	padding: 52px 0;
+}
+.nav ul li a {
+	color: #d1d1d1;
+}
+.df {
+	display: flex;
+}
+.w-50 {
+	width: 50%;
+}
+.header {
+	background: #000;
+}
+.ai-c {
+	align-items: center;
+}
+.jc-fe {
+	justify-content: flex-end;
+}
+.title h2 {
+	color: #ffffff;
+}
+.title h1 {
+	font-size: 128px;
+	color: #00ffa3;
+	text-align: right;
+}
+.title a {
+	color: #000;
+	padding: 12px 24px;
+	background: #ffffff;
+	border-radius: 32px;
+	text-align: right;
+}
+.material-symbols-outlined {
+	font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+.introduction {
+	background: #15161d;
+	background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+	background-size: cover;
+}
+.p-160 {
+	padding: 160px 0;
+}
+.w-40 {
+	width: 40%;
+}
+.w-60 {
+	width: 60%;
+}
+.section-text h2 {
+	color: #ffffff;
+	margin-bottom: 36px;
+}
+.section-text p {
+	font-size: 24px;
+	color: #ffffff;
+	margin-bottom: 32px;
+}
+.mr-24 {
+	margin-right: 24px;
+}
+.mr-20 {
+	margin-right: 20px;
+}
+.mb {
+	margin-bottom: 24px;
+}
+.about-me {
+	background: #ffffff;
+}
+.card-group {
+	display: flex;
+	flex-wrap: wrap;
+}
+.card {
+	width: 306px;
+	padding: 16px;
+	border: 1px solid #e3e3e3;
+	box-shadow: 4px 4px 4px 0px #00000014;
+}
+.card h3 {
+	font-size: 20px;
+	color: #15161d;
+}
+.card p {
+	color: #15161d;
+}
+.about-me-text h2 {
+	color: #000;
+	margin-bottom: 36px;
+}
+.about-me-text p {
+	font-size: 24px;
+	color: #15161d;
+}
+.contact {
+	background: linear-gradient(#01021e 89%, #050014 100%);
+}
+.contact-me {
+	padding: 127px 0;
+}
+.contact-me h2 {
+	color: #ffffff;
+	margin-right: 16px;
+}
+.contact-me img {
+	width: 100px;
+	height: 100px;
+}
+.w-55 {
+	width: 55%;
+}
+.w-45 {
+	width: 45%;
+}
+.social-icon {
+	padding: 96px 0;
+}
+.social-icon img {
+	box-shadow: 4px 4px 8px 0px #00000014;
+}
+.social-icon img:hover {
+	box-shadow: 0px 0px 16px 3px #9094ffe5;
+	border-radius: 40px;
+}
+.my-project .df {
+	justify-content: flex-end;
+}
+.my-project {
+	width: 746px;
+	margin-left: auto;
+	margin-bottom: 16px;
+}
+.project-right-top {
+	margin-bottom: 28px;
+}
+.project-text p {
+	color: #15161d;
+	margin-bottom: 76px;
+}
+.see-more {
+	padding: 12px 24px;
+	background: #000;
+	color: #ffffff;
+	border-radius: 32px;
+}
+.footer {
+	background: #000;
+}
+.footer-content p {
+	padding: 40px 0;
+	text-align: center;
+	color: #ffffff;
+}
